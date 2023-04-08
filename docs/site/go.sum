@@ -1,0 +1,10 @@
+github.com/FortAwesome/Font-Awesome v0.0.0-20220831210243-d3a7818c253f/go.mod h1:IUgezN/MFpCDIlFezw3L8j83oeiIuYoj28Miwr/KUYo=
+github.com/glennsarti/platyPS v0.0.0-20230208011120-412a0a8683b9 h1:NU/jFhhN7pL1G5xr0xQjvdtEf51X65f7Fg7taGINfmM=
+github.com/glennsarti/platyPS v0.0.0-20230208011120-412a0a8683b9/go.mod h1:NFRcfUeZ2mNGPKuMToF1hOHIJdxPBDFSqjlyIf/htvY=
+github.com/google/docsy v0.6.0 h1:43bVF18t2JihAamelQjjGzx1vO2ljCilVrBgetCA8oI=
+github.com/google/docsy v0.6.0/go.mod h1:VKKLqD8PQ7AglJc98yBorATfW7GrNVsn0kGXVYF6G+M=
+github.com/google/docsy/dependencies v0.6.0 h1:BFXDCINbp8ZuUGl/mrHjMfhCg+b1YX+hVLAA5fGW7Pc=
+github.com/google/docsy/dependencies v0.6.0/go.mod h1:EDGc2znMbGUw0RW5kWwy2oGgLt0iVXBmoq4UOqstuNE=
+github.com/microsoft/Documentarian/Projects/Hugo/docsy-pwsh v0.0.0-20230406153055-2303e776f8b6 h1:L6H8P7Pf84z4UmxJvbAVKzx+FHLDQ5l9I1mTQjBQ4Rk=
+github.com/microsoft/Documentarian/Projects/Hugo/docsy-pwsh v0.0.0-20230406153055-2303e776f8b6/go.mod h1:s829UOXwyEU/66fS05+KZ7sBBfBCSF2K+ixyaGw2jHo=
+github.com/twbs/bootstrap v4.6.2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=

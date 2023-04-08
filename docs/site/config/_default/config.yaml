@@ -1,0 +1,11 @@
+baseURL: https://sarti.dev/platyPS
+languageCode: en-us
+title: "PlatyPS : PowerShell Documentation"
+contentDir: "../content"
+defaultContentLanguage: "en"
+defaultContentLanguageInSubdir: false
+enableMissingTranslationPlaceholders: true
+enableRobotsTXT: true
+enableGitInfo: true
+permalinks:
+  blog: '/:section/:year/:month/:day/:slug/'

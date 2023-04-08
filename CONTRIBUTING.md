@@ -1,3 +1,9 @@
+---
+title: Contributing
+linkTitle: Contributing
+description: How to contribute to this fabulous project.
+---
+
 # Contributing to platyPS
 
 ## Get the code
@@ -111,7 +117,7 @@ Under the hood, the following tranformations happen:
 # Making a new release
 
 1. Make sure that `CHANGELOG.md` is up-to-date, move section from `UNRELEASED` to new section `<release name>`.
-1. Make sure platyPS help itself (content in .\docs folder) is up to date. 
+1. Make sure platyPS help itself (content in .\docs folder) is up to date.
    `Update-MarkdownHelp -Path .\docs` should result in no changes.
 1. Do not change the version in platyps.psd1. Git tag will update this version for release.
 1. From master, tag the release.

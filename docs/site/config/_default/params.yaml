@@ -1,0 +1,68 @@
+taxonomy:
+  taxonomyCloud:
+    - tags
+    - categories
+  taxonomyCloudTitle:
+    - Tag Cloud
+    - Categories
+  taxonomyPageHeader:
+    - tags
+    - categories
+  pygmentsCodeFences: true
+  pygmentsUseClasses: false
+  pygmentsUseClassic: false
+  pygmentsStyle: tango
+copyright: Glenn Sarti (But really it's Microsoft. This is just a demo)
+version_menu: Releases
+archived_version: false
+version: 0.1.0
+url_latest_version: 'https://github.com/glennsarti/platyPS/releases'
+github_repo: 'https://github.com/glennsarti/platyPS'
+github_project_repo: 'https://github.com/glennsarti/platyPS'
+github_branch: main
+github_feedback:
+  - name: post_create_issue # maps to i18n/*.yaml
+    temp: issues/new
+    type: issues
+    icon: flag
+    params:
+      labels:
+        - bug
+        - documentation
+        - needs-triage
+      template: docs-bug.yml
+offlineSearch: true
+prism_syntax_highlighting: false
+ui:
+  breadcrumb_disable: false
+  footer_about_disable: true
+  navbar_logo: false
+  navbar_translucent_over_cover_disable: true
+  sidebar_menu_compact: true
+  sidebar_menu_foldable: true
+  sidebar_search_disable: true
+  feedback:
+    enable: false
+  readingtime:
+    enable: true
+links:
+  user:
+    - name: GitHub Issues
+      url: 'https://github.com/glennsarti/platyPS/issues'
+      icon: fa fa-comments
+      desc: >-
+        The project discussions on GitHub host announcements, Q&A, feature ideas, and more. Head
+        here to talk with other users, developers, and authors about the project and documentation.
+  developer:
+    - name: Contributor Guide
+      url: 'docs/contributing'
+      icon: fa fa-book
+      desc: >-
+        Read the contributing guide to get started contributing directly. The guide includes
+        everything you need to know about building, testing, extending, and documenting the project.
+    - name: GitHub Repository
+      url: 'https://github.com/glennsarti/platyPS'
+      icon: fab fa-github
+      desc: >-
+        GitHub is where the project is hosted and developed. This repository has the source files
+        for the project and this documentation site. It's also where all of the work gets tracked.

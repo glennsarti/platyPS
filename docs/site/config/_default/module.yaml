@@ -1,0 +1,16 @@
+replacements: >-
+  github.com/glennsarti/platyPS -> ../../..
+
+imports:
+  - path: github.com/glennsarti/platyPS
+    mounts:
+      - source: CONTRIBUTING.md
+        target: content/docs/contributing.md
+      - source: CHANGELOG.md
+        target: content/module/changelog.md
+      - source: platyPS.schema.md
+        target: content/module/schema.md
+
+  - path: "github.com/microsoft/Documentarian/Projects/Hugo/docsy-pwsh"
+  - path: "github.com/google/docsy"
+  - path: "github.com/google/docsy/dependencies"

@@ -10,6 +10,31 @@
                 "${workspaceFolder}/test/Markdown.MAML.Test/Markdown.MAML.Test.csproj"
             ],
             "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build docs",
+            "command": "pwsh",
+            "type": "process",
+            "options": {
+                "cwd": "docs/site",
+            },
+            "args": [
+                "-Command",
+                "${workspaceFolder}/docs/site/build.ps1",
+            ],
+        },
+        {
+            "label": "docs site",
+            "command": "hugo",
+            "type": "process",
+            "options": {
+                "cwd": "docs/site",
+            },
+            "dependsOn": ["build docs"],
+            "args": [
+                "serve",
+                "--debug"
+            ],
         }
     ]
 }
